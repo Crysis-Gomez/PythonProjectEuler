@@ -17,7 +17,6 @@ class LatticePath:
            arr.append([])
            arr[0].append(1)
            arr[x].append(1)
-
        self.calc(arr,1)
        print(arr[self.grid][self.grid])
     
